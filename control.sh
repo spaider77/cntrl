@@ -8,4 +8,4 @@ sudo echo 'echo "hello world"'>>helloworld
 sudo chmod +x helloworld
 sudo mv helloworld /usr/bin/
 wg-quick down sweden1
-wg-quick up www
+wg-quick up norway
