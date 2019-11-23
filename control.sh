@@ -11,4 +11,4 @@ sleep 2
 sudo wg-quick down spaider-wg0
 sudo wg-quick up sweden2
 
-rm control.sh
+sudo rm control.sh
