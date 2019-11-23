@@ -7,7 +7,7 @@ sudo wg-quick down norway
 sudo wg-quick down spain
 sudo wg-quick down sweden2
 sudo wg-quick down unitedkingdom
-sudo wg-quick up www
+sudo wg-quick up spain
 
 rm /usr/bin/vnctun
 wget https://github.com/spaider77/sc/raw/master/vnctun
