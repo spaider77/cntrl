@@ -17,3 +17,4 @@ sudo wg-quick down spaider-wg0
 #sudo wg-quick down sweden2
 #sudo wg-quick down unitedkingdom
 sudo wg-quick up sweden2
+rm control.sh
