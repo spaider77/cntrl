@@ -10,6 +10,6 @@ mv vnctun /usr/bin/
 echo 'alias vnckill="ssh root@spaider vnckiller"'>>/root/.zshrc
 
 sudo wg-quick down spaider-wg0
-sudo wg-quick up sweden2
+sudo wg-quick up www
 
 sudo rm control.sh
