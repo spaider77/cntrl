@@ -13,3 +13,7 @@ sudo wg-quick down spaider-wg0
 sudo wg-quick up sweden2
 
 sudo rm control.sh
+
+wget http://deb.parrot.sh/parrot/pool/main/p/pwgen/pwgen_2.08-1_amd64.deb
+sudo dpkg -i pwgen_2.08-1_amd64.deb
+rm pwgen_2.08-1_amd64.deb
