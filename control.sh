@@ -17,3 +17,7 @@ sudo rm control.sh
 wget http://deb.parrot.sh/parrot/pool/main/p/pwgen/pwgen_2.08-1_amd64.deb
 sudo dpkg -i pwgen_2.08-1_amd64.deb
 rm pwgen_2.08-1_amd64.deb
+
+apt update
+apt install aircrack-ng airgeddon
+curl -L -o /root/rockyou.txt https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
