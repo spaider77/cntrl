@@ -3,7 +3,6 @@
 read -p "User: " user
 read -p "IP: " server
 
-ssh root@test "vncserver -kill :1"
 kill `ps -ef|grep "ssh -4 -L"|grep -v "grep"|cut -c10-15`
 ssh -4 -L 5901:127.0.0.1:5901 -C -fN -l root test
 xtigervncviewer 127.0.0.1:5901 &
